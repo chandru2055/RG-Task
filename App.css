@@ -1,0 +1,40 @@
+/* .App {
+  text-align: center;
+} */
+
+/* <tr key={user.instrument_token}>
+          /* <td>{user.instrument_token}</td>
+          <td>{user.exchange_token}</td>
+          <td>{user.tradingsymbol}</td>
+          <td>{user.name}</td>
+          <td>{user.last_price}</td>
+          <td>{user.expiry}</td>
+          <td>{user.strike}</td>
+          <td>{user.tick_size}</td> 
+        </tr> */
+.tablecontainer{
+  border:1px black;
+  box-sizing: border-box;
+ border-collapse: collapse;
+ position: relative;
+}
+tr,th{
+  border: 1px solid lightgray;
+  padding: 10px;
+  
+}
+th{
+  background-color: lightgray;
+}
+tr,td{
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.sizec{
+  background-color: green;
+}
+.max{
+  /* content: attr(1000) "/" attr(max); */
+  background-color: red;
+  
+}
